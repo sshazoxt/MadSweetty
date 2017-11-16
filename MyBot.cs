@@ -56,7 +56,7 @@ namespace MadSweetty
 
             discord.ExecuteAndWait(async () =>
             {
-                await discord.Connect("MzE4MTUwMjE4ODE2MjkwODE2.DAyNcw.lQ7HH8apZtixFnrbo5WeeXWnqrA", TokenType.Bot);
+                await discord.Connect("", TokenType.Bot);
             });
         }
 
